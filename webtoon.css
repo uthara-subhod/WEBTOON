@@ -136,11 +136,9 @@ li a:hover{
  width:100vw;
  margin-top:100px;
  height:490px;
- display:block;
 }
 
 .transition{
-
     margin-left: 50px;
     margin-top:-20px;
     height:490px;
@@ -153,6 +151,7 @@ li a:hover{
     animation-direction: normal;
     animation-delay: 6s;
 }
+
 @keyframes banner {
     0%{
         background-image: url(images/image1.png);
@@ -261,7 +260,6 @@ li a:hover{
     transition: opacity 0.3s ease-in-out;
 }
 .work:hover .work-hover{
-    display:block;
     opacity:1;
 }
 #featured_work{
@@ -282,7 +280,6 @@ li a:hover{
 }
 
 #featured_work:hover .featured_hover{
-    display:block;
     opacity: 1;
 }
 
